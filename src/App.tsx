@@ -94,7 +94,7 @@ const experience = [
     org: 'BYU-Idaho',
     date: 'January 2026 - Present',
     bullets: [
-      'Built Google Apps Script automations that organize setup data for about 375 online courses per semester and generate Trello pipelines for 25 staff.',
+      'Built Google Apps Script automations that standardize course setup workflows, synchronize Trello pipelines, and reduce repetitive coordination for academic operations.',
       'Maintained Canvas LMS and Trello API abstraction layers to standardize internal data integrations and reduce repetitive configuration code.',
       'Developed a React/C# inventory app with admin roles, user balance tracking, GitHub Actions deployment, Nginx hosting, and senior-developer review.',
       'Built a responsive Canvas API dashboard tracking enrollment and assignments for 250+ students across 1,000+ courses.',
@@ -132,9 +132,9 @@ const stackGroups = [
 ]
 
 const highlights = [
-  { value: '375', label: 'online courses organized per semester' },
-  { value: '250+', label: 'students tracked through Canvas dashboards' },
-  { value: '100k+', label: 'records modeled in data quality pipelines' },
+  { value: 'APIs', label: 'backend services and third-party integrations' },
+  { value: 'DATA', label: 'pipelines, dashboards, and analytical workflows' },
+  { value: 'AUTO', label: 'automation that turns repeated work into systems' },
 ]
 
 function ProjectCard({ project, featured = false }: { project: Project; featured?: boolean }) {
@@ -223,7 +223,6 @@ function App() {
               <span>ready</span>
             </div>
             <div className="operator-card">
-              <img src="/profile.jpg" width="112" height="112" alt="Enmanuel De Los Santos Cruz" />
               <div>
                 <h2>
                   <span>Enmanuel De</span>

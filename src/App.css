@@ -227,23 +227,12 @@ h1 span:not(:last-child)::after {
 
 .operator-card {
   display: grid;
-  grid-template-columns: 112px minmax(0, 1fr);
-  gap: 22px;
-  align-items: center;
+  grid-template-columns: 1fr;
   padding: 28px;
 }
 
 .operator-card > div {
   min-width: 0;
-}
-
-.operator-card img {
-  width: 112px;
-  height: 112px;
-  border: 1px solid var(--line-strong);
-  object-fit: cover;
-  background: var(--panel);
-  filter: grayscale(1) contrast(1.1);
 }
 
 .operator-card h2 {
@@ -742,13 +731,7 @@ footer {
   }
 
   .operator-card {
-    grid-template-columns: 96px minmax(0, 1fr);
     padding: 22px;
-  }
-
-  .operator-card img {
-    width: 96px;
-    height: 96px;
   }
 
   .operator-card h2 {
@@ -807,10 +790,6 @@ footer {
 }
 
 @media (max-width: 420px) {
-  .operator-card {
-    grid-template-columns: 1fr;
-  }
-
   .signal-grid {
     grid-template-columns: 1fr;
   }
