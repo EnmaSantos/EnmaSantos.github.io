@@ -351,7 +351,7 @@ function App() {
               <GitPullRequest size={18} />
               <span>GitHub</span>
             </a>
-            <a href="https://www.linkedin.com/in/enmadelossa" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/enmsan/" target="_blank" rel="noreferrer">
               <Link2 size={18} />
               <span>LinkedIn</span>
             </a>
